@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1:CSS</title>
+</head>
+<body>
+    <h1> CSS Interview Day 1</h1>
+    <h3>1.Explain inline , internal and external stylesheet.</h3>
+    <p>
+        External CSS:With an external style sheet, you can change the look of an entire website by changing just one file!
+        Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+        Internal CSS:An internal style sheet may be used if one single HTML page has a unique style.The internal style is defined inside the style tag element, inside the head section.
+        Inline CSS:An inline style may be used to apply a unique style for a single element.To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
+    </p>
+
+    <h3>2.What is css box model?</h3>
+    <p>
+        The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+     <ol>       
+        <li>Content - The content of the box, where text and images appear</li>
+        <li>Padding - Clears an area around the content. The padding is transparent</li>
+        <li>Border - A border that goes around the padding and content</li>
+        <li>Margin - Clears an area outside the border. The margin is transparent</li>
+
+    </p>
+
+
+    <h3>3.What is the difference between padding and margin?</h3>
+    <p>
+        padding:Clears an area around the content. The padding is transparent.
+
+        Margin:Clears an area outside the border. The margin is transparent.
+    </p>
+
+    <h3>4.Difference between flex row and column.</h3>
+    <p>
+        These both are flex-direction properties used in display :flex properties.
+        Flex-Row:The row value stacks the flex items horizontally (from left to right)
+        Flex-Column:The column value stacks the flex items vertically (from top to bottom)
+    </p>
+
+    <h3>5.Justify-content allows you to do what?</h3>
+    <p>
+        The justify-content property is used to align the flex items.
+        We have different attribiutes here:
+        The center value aligns the flex items at the center of the container
+        The flex-start value aligns the flex items at the beginning of the container <stong>(this is default)</stong>
+        The flex-end value aligns the flex items at the end of the container
+        The space-around value displays the flex items with space before, between, and after the lines
+        The space-between value displays the flex items with space between the lines
+
+    </p>
+
+    <h3>6.Difference between absolute and relative positioning</h3>
+    <p>
+        These both are types of position properties .]
+        Relative:
+        An element with position: relative; is positioned relative to its normal position.
+        Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. 
+        Other content will not be adjusted to fit into any gap left by the element.
+
+        Absolute:
+        An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+
+        However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+    </p>
+    
+    <h3>7.What is the z-index in CSS?</h3>
+    <p>
+        The z-index property specifies the stack order of an element.
+        The z-index property specifies the stack order of an element (which element should be placed in front of, or behind, the others).
+        An element can have a positive or negative stack order
+    </p>
+</body>
+</html>
