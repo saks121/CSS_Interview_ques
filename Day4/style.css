@@ -1,0 +1,58 @@
+.masterhead{
+    width: 908px;
+    height: 500px;
+    border-radius: 12px;
+    background-image: url(https://media.gettyimages.com/id/482018359/photo/india-gate-new-delhi.jpg?s=612x612&w=gi&k=20&c=e9heXVuTwxzgoqCl2mEQjti5yAVKNZJgg9MtbfPcQlM=);
+    background-repeat: round;
+}
+#parag{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+
+}
+
+#button{
+    width: 150px;
+    height: 40px;
+    background-color: brown;
+    border-radius: 17px;
+    position: relative;
+    top: 40px;
+    left: 379px;
+
+}
+
+
+.header{
+    width: 900px;
+    height: 90px;
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#image{
+    width: 80px;
+    height: 80px;
+    align-items: flex-start;
+    display: flex;
+}
+
+.buttons{
+    width: 150px;
+    height: 40px;
+    background-color: brown;
+    border-radius: 17px;
+    align-items: flex-end;
+    justify-content: space-between;
+
+}
+
+.button{
+    position: absolute;
+    left: 575px;
+    top: 35px;
+}
